@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+.bg{
+  margin-top: 10px;
+  padding: 10px;
+  background-color:#f7f7f7 ;
+}
+button{
+  background-color: rgb(142, 147, 149);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  padding: 10px 20px;
+  border: none;
+  transition: 0.3s;
+}
+button:hover{
+  background-color: rgb(78, 81, 82);
+  
+}
