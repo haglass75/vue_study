@@ -16,6 +16,11 @@ import ForEx from "./components/ForEx.vue";
   <Computed />
   <Stylebinding />
   <ForEx />
+  <nav>
+    <router-link to="/">홈</router-link> |
+    <router-link to="/about">소개</router-link>
+  </nav>
+  <router-view></router-view>
 </template>
 
 <style scoped></style>

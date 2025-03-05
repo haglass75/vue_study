@@ -1,5 +1,7 @@
 import { createApp } from 'vue'
-import './style.css'
 import App from './App.vue'
+import router from './router'  // 라우터 추가
 
-createApp(App).mount('#app')
+const app = createApp(App)
+app.use(router)  // 라우터 적용
+app.mount('#app')  // 앱 마운트
